@@ -96,6 +96,7 @@ onMounted(() => {
   <div class="h-screen w-full flex flex-col place-content-center">
     <div class="flex justify-around mb-9">
       <div class="text-2xl text-emerald-500 font-bold">Points: {{ turns }}</div>
+      <div class="text-2xl text-emerald-500 font-bold">Gilberth</div>
       <div class="text-2xl text-emerald-500 font-bold">Wrongs: {{ wrongs }}</div>
     </div>
 
@@ -103,7 +104,7 @@ onMounted(() => {
       class="grid grid-cols-3 md:grid-auto-fit-[10rem] grid-flow-row gap-3 max-w-3xl md:gap-8 md:p-1 mx-auto"
     >
       <Card
-        :disabled="disabled"
+        :disabled="disabled || card === choiceOne"
         :flip="card === choiceOne || card === choiceTwo || card.matched"
         :card="card"
         v-for="card in cards"
