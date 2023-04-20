@@ -31,7 +31,7 @@ Forma para poner a correr el juego:
 
 ## URL Vercel Deployment📦
 Para usar el juego sin instalaciones ingrese a la URL:
-# [game URL](https://memory-game-nine-peach.vercel.app/)
+# [Game URL](https://memory-game-nine-peach.vercel.app/)
 
 
 ## Construido con 🛠️
