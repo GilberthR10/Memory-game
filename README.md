@@ -33,8 +33,7 @@ Forma para poner a correr el juego:
 Para usar el juego sin instalaciones ingrese a la URL:
 ```
 Vercel
-POST - http://localhost:3000/signup
-POST - http://localhost:3000/login
+https://memory-game-nine-peach.vercel.app/
 ```
 
 
