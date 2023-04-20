@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import Board from './components/Board.vue';
-
-
+import GameBoard from './components/GameBoard.vue'
 </script>
 
 <template>
   <div class="p-10">
-    <Board />
+    <Game-board />
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -1,46 +1,55 @@
-# Memory-card
+# Memory-game
+El juego consiste en:
+➡️La primera vez que un usuario ingrese al juego se le debe solicitar el nombre.
+➡️Mostrar un tablero con un grupo de cartas boca abajo y un marcador con un espacio para mostrar: 
+➡️Errores y aciertos.
+➡️El jugador debe ir volteando las cartas intentando adivinar las cartas que se repiten.
+➡️Todas las cartas se encuentran repetidas 1 vez en el tablero.
+➡️Por cada turno el jugador debe voltear 2 cartas.
+➡️Si las cartas no coinciden, se debe sumar 1 punto de error en el marcador.
+➡️Si las cartas coinciden, se debe sumar 1 punto de acierto en el marcador.
+➡️Las cartas que el usuario acierte deben quedar boca arriba mientras que las cartas de error deben volver a quedar boca abajo.
 
-This template should help get you started developing with Vue 3 in Vite.
+🎊 Una vez que el usuario logre adivinar todas las cartas, se debe mostrar un mensaje de felicitación con el nombre del usuario.
 
-## Recommended IDE Setup
+## Comenzando 🚀
+Las instrucciones aquí te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Mira **Instalación 🔧** para conocer como instalar el proyecto.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+### Pre-requisitos 📋
+_Para realizar la instalación local de debe contar con unos requisitos:_
+```
+- NodeJS v12+
+- NPM
 ```
 
-### Compile and Hot-Reload for Development
+### Instalación 🔧
+Forma para poner a correr el juego:
+1. npm install en la raiz del proyecto.
+2. npm run dev
+3. abrir en el navegador la url resultante
 
-```sh
-npm run dev
+## URL 📦
+Para usar el juego sin instalaciones ingrese a la URL:
+```
+Vercel
+POST - http://localhost:3000/signup
+POST - http://localhost:3000/login
 ```
 
-### Type-Check, Compile and Minify for Production
 
-```sh
-npm run build
-```
+## Construido con 🛠️
+* [Vue.js](https://vuejs.org/) -framework progresivo de JavaScript utilizado para construir interfaces de usuario interactivas en la web.
+* [VueUSe](https://vueuse.org/) - VueUse es una colección de hooks de Vue.js listos para usar 
+* [Pinia](https://pinia.vuejs.org/) -  librería de gestión de estado
+* [Vite](https://vitejs.dev/) - herramienta de construcción de proyectos para aplicaciones web
+* [Typescript](https://www.typescriptlang.org/) -  mejora la calidad del código JavaScript al agregar tipado estático
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-```sh
-npm run test:unit
-```
+## Autor ✒️
+
+* **Gilberth Renteria.** - *Trabajo Inicial* - [rankey1496](https://github.com/rankey1496)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia ISC
