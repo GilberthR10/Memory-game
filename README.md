@@ -44,7 +44,7 @@ Para usar el juego sin instalaciones ingrese a la URL:
 
 ## Autor ✒️
 
-* **Gilberth Renteria.** - *Trabajo Inicial* - [rankey1496](https://github.com/rankey1496)
+* **Gilberth Renteria.**
 
 ## Licencia 📄
 
